@@ -52,8 +52,11 @@ foo(3)
 {% endhighlight %}
 
 test mathjax
+
 $\frac{1}{2}$
+
 $$\frac{1}{2}$$
+
 $$ \int_a^b f(x)\,dx $$ #Inline公式
 
 \\[\int_0^{+\infty} x^n e^{-x} \,dx = n! \\]  另起一行居中公式
