@@ -50,3 +50,18 @@ var foo = function(x) {
 }
 foo(3)
 {% endhighlight %}
+
+test mathjax
+$\frac{1}{2}$
+$$\frac{1}{2}$$
+$$ \int_a^b f(x)\,dx $$ #Inline公式
+
+\\[\int_0^{+\infty} x^n e^{-x} \,dx = n! \\]  另起一行居中公式
+
+\\( p\{X=x\}=f(x)=\frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}} \\)  Inline公式
+
+\\[ p\{X=x\}=f(x)=\frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}} \\]  另起一行居中公式
+
+$$ F(x) = P\{ X <= x \} = \int_{-\infty}^x f(x)\,dx $$
+
+\\[ f(x,y,z) = 3y^2 z \left( 3 + \frac{7x+5}{1 + y^2} \right). \\]
